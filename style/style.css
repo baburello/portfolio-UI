@@ -15,6 +15,9 @@
     --primary-color: #ff6464;
     --light-blue: #edf7fa;
     --link-color: #00a8cc;
+    --white-color:#fff;
+    --gray-color: #8695A4;
+    --line-break-color:#E0E0E0;
 }
 
 a {
@@ -26,6 +29,10 @@ ul,
 ol,
 li {
     list-style: none;
+}
+
+[class*="__container"] {
+    padding: 0 88px;
 }
 
 html,
@@ -122,9 +129,9 @@ a {
     background-color: var(--light-blue);
 }
 
-.recent__container {
+/* .recent__container {
     padding: 0 88px;
-}
+} */
 
 .recent__texts {
     margin-top: 7px;
@@ -159,6 +166,7 @@ a {
     padding: 24px 21px 7px 23px;
     border-radius: 4px;
     box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    margin-bottom: 32px;
 }
 
 .recent__cards--header {
@@ -183,3 +191,83 @@ a {
     font-weight: 400;
     line-height: normal;
 }
+
+/* Featured section start */
+
+.featured__container {
+    margin-top: 15px;
+}
+.featured__title {
+    color: var(--dark-color);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.featured__works {
+    margin-top: 22px;
+   
+}
+
+.featured__work {
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid var(--line-break-color);
+    padding-bottom: 15px;
+}
+
+.featured__work:nth-of-type(2){
+    margin-top: 31px;
+    padding-bottom: 35px;
+}
+
+.featured__work:nth-of-type(3){
+    margin-top: 31px;
+    padding-bottom: 32px;
+}
+
+.featured__work--img {
+    width: 246px;
+    height: 180px;
+}
+
+img {
+    width: inherit;
+    height: inherit;
+}
+
+.featured__work--date {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.featured__work--date--year {
+    width: 62px;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    color:#fff;
+    background-color:var(--dark-color);
+    border-radius:16px;
+}
+
+.featured__work--date--dash{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--gray-color);
+}
+
+.featured__work--desc--text{
+    margin-top: 17px;
+}
+
+#featured_text{
+    margin-top: 45px;
+}
+
+/* End of main */
+
+/* Footer */
