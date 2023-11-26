@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Portfolio UI</title>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style/style.css" />
+        <title>Portfolio UI</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <nav class="header__nav">
+                    <ul>
+                        <li><a class="header__nav--link" href="#">Works</a></li>
+                        <li><a class="header__nav--link" href="#">Blog</a></li>
+                        <li>
+                            <a class="header__nav--link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <main class="main">
+            <div class="wrapper">
+                <section class="main__intro">
+                    <div class="main__intro--desc">
+                        <h1 class="main__intro--name">
+                            Hi, I am John,<br />
+                            Creative Technologist
+                        </h1>
+                        <p class="main__intro--about">
+                            Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam
+                            consequat sunt nostrud amet.
+                        </p>
+                        <button class="main__intro--btn">
+                            Download Resume
+                        </button>
+                    </div>
+                    <div class="main__intro--photo">
+                        <img src="./images/avatar_img.png" alt="avatar photo" />
+                    </div>
+                </section>
+            </div>
+            <section class="recent">
+                <div class="recent__container wrapper">
+                    <div class="recent__texts">
+                        <h3 class="recent__texts--posts">Recent posts</h3>
+                        <a class="recent__texts--more" href="#">View all</a>
+                    </div>
+                    <div class="recent__cards--container">
+                        <div class="recent__cards">
+                            <div class="recent__cards--header">
+                                Making a design system from scratch
+                            </div>
+                            <div class="recent__cards--date">
+                                <p>12 Feb 2020</p>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="2"
+                                    height="21"
+                                    viewBox="0 0 2 21"
+                                    fill="none"
+                                >
+                                    <path d="M1 0V21" stroke="black" />
+                                </svg>
+                                <p>Design, Pattern</p>
+                            </div>
+                            <div class="recent__cards--text">
+                                Amet minim mollit non deserunt ullamco est sit
+                                aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation
+                                veniam consequat sunt nostrud amet.
+                            </div>
+                        </div>
+                        <div class="recent__cards">
+                            <div class="recent__cards--header">
+                                Creating pixel perfect icons in Figma
+                            </div>
+                            <div class="recent__cards--date">
+                                <p>12 Feb 2020</p>
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="2"
+                                    height="21"
+                                    viewBox="0 0 2 21"
+                                    fill="none"
+                                >
+                                    <path d="M1 0V21" stroke="black" />
+                                </svg>
+                                <p>Figma, Icon Design</p>
+                            </div>
+                            <div class="recent__cards--text">
+                                Amet minim mollit non deserunt ullamco est sit
+                                aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit mollit. Exercitation
+                                veniam consequat sunt nostrud amet.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">Footer</footer>
+    </body>
 </html>
