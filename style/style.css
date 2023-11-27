@@ -88,7 +88,7 @@ a {
 
 /* main intro start */
 .main__intro {
-    max-width: 835px;
+    /* max-width: 835px; */
     margin: 0 auto;
     padding-top: 131px;
     padding-bottom: 70px;
@@ -97,7 +97,7 @@ a {
 }
 
 .main__intro--desc {
-    width: 506px;
+    max-width: 506px;
 }
 
 .main__intro--name {
@@ -120,7 +120,7 @@ a {
     border: 1px solid var(--primary-color);
     cursor: pointer;
     color: white;
-    padding: 11px 21px 15px 20px;
+    padding: 9px 21px 14px 20px;
     border-radius: 2px;
     font-size: 20px;
     font-weight: 500;
