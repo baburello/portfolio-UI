@@ -37,6 +37,11 @@
 }
 
 /* Avatar photo media */
+@media (max-width: 940px) {
+    .main {
+       margin-top: 83px;
+    }
+}
 
 @media (max-width: 940px) {
     .main__intro {
@@ -132,6 +137,24 @@
 }
 
 @media (max-width: 940px) {
+    .featured__work--img {
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .featured__work--img {
+        width: 70vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 400px) {
     .featured__work--img {
         width: 90vw;
         height: 100%;
