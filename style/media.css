@@ -234,3 +234,35 @@
        
     }
 }
+
+/* Work detail Page media */
+
+@media(max-width:724px){
+    .work__detail{
+     max-width: 90vw;
+    }
+ }
+
+@media(max-width:724px){
+    .work__detail--title{
+        font-size: 29px;
+        line-height: 40px;
+        width: 100%;
+        max-width: 99vw;
+    }
+}
+
+@media(max-width:724px){
+    .detail__date>p{
+        font-size: 18px;
+    }
+ }
+
+ @media(max-width:724px){
+    .detail__content>img{
+        max-width: 90vw;
+    }
+ }
+
+
+

@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style/style.css" />
-        <link rel="stylesheet" href="./style/media.css">
+        <link rel="stylesheet" href="./style/media.css" />
         <title>Portfolio UI</title>
     </head>
     <body>
@@ -12,8 +12,19 @@
             <header class="header">
                 <nav class="header__nav">
                     <ul>
-                        <li><a class="header__nav--link" id="blog-title" href="#">Blog</a></li>
-                        <li><a class="header__nav--link" href="./works.html">Works</a></li>
+                        <li>
+                            <a
+                                class="header__nav--link"
+                                id="works-title"
+                                href="#"
+                                >Works</a
+                            >
+                        </li>
+                        <li>
+                            <a class="header__nav--link" href="./blog.html"
+                                >Blog</a
+                            >
+                        </li>
                         <li>
                             <a class="header__nav--link" href="#footer"
                                 >Contact</a
@@ -31,111 +42,41 @@
             </header>
         </div>
         <main class="main wrapper">
-            <div class="blog__container">
-                <h1 class="blog__title">Blog</h1>
-                <div class="blog__posts">
-                    <!--Blog posts 1-->
-                    <h2 class="blog__posts--title">
-                        UI Interactions of the week
-                    </h2>
-                    <div class="blog__posts--desc">
-                        <p class="blog__posts--date">12 Feb 2019</p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="2"
-                            height="21"
-                            viewBox="0 0 2 21"
-                            fill="none"
-                        >
-                            <path d="M1 0V21" stroke="black" />
-                        </svg>
-                        <p class="blog__posts--items">Express, Handlebars</p>
+            <section class="featured wrapper">
+                <div class="featured__container work__detail">
+                    <h3 class="work__detail--title">
+                        Designing Dashboards with usability in mind
+                    </h3>
+                    <div class="detail__date">
+                        <p class="featured__work--date--year detail__date--year">2020</p>
+                        <p class="detail__date--title">Dashboard, User Experience Design</p>
                     </div>
-                    <p class="blog__posts--text">
-                        Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor do amet sint. Velit officia consequat duis enim
-                        velit mollit. Exercitation veniam consequat sunt nostrud
-                        amet.
-                    </p>
-                </div>
-                <div class="blog__posts">
-                    <!--Blog posts 2-->
-                    <h2 class="blog__posts--title">
-                        UI Interactions of the week
-                    </h2>
-                    <div class="blog__posts--desc">
-                        <p class="blog__posts--date">12 Feb 2019</p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="2"
-                            height="21"
-                            viewBox="0 0 2 21"
-                            fill="none"
-                        >
-                            <path d="M1 0V21" stroke="black" />
-                        </svg>
-                        <p class="blog__posts--items">Express, Handlebars</p>
+                    <div class="detail__content">
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam
+                            consequat sunt nostrud amet.
+                        </p>
+                        <img src="./images/detail_img_1.png" alt="image" />
                     </div>
-                    <p class="blog__posts--text">
-                        Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor do amet sint. Velit officia consequat duis enim
-                        velit mollit. Exercitation veniam consequat sunt nostrud
-                        amet.
-                    </p>
-                </div>
-                <div class="blog__posts">
-                    <!--Blog posts 3-->
-                    <h2 class="blog__posts--title">
-                        UI Interactions of the week
-                    </h2>
-                    <div class="blog__posts--desc">
-                        <p class="blog__posts--date">12 Feb 2019</p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="2"
-                            height="21"
-                            viewBox="0 0 2 21"
-                            fill="none"
-                        >
-                            <path d="M1 0V21" stroke="black" />
-                        </svg>
-                        <p class="blog__posts--items">Express, Handlebars</p>
+                    <div class="detail__sample">
+                        <p class="detail__sample--1">Heading 1</p>
+                        <p class="detail__sample--2">Heading 2</p>
                     </div>
-                    <p class="blog__posts--text">
-                        Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor do amet sint. Velit officia consequat duis enim
-                        velit mollit. Exercitation veniam consequat sunt nostrud
-                        amet.
-                    </p>
-                </div>
-                <div class="blog__posts" id="blog-post-last">
-                    <!--Blog posts 4-->
-                    <h2 class="blog__posts--title">
-                        UI Interactions of the week
-                    </h2>
-                    <div class="blog__posts--desc">
-                        <p class="blog__posts--date">12 Feb 2019</p>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="2"
-                            height="21"
-                            viewBox="0 0 2 21"
-                            fill="none"
-                        >
-                            <path d="M1 0V21" stroke="black" />
-                        </svg>
-                        <p class="blog__posts--items">Express, Handlebars</p>
+                    <div class="detail__content">
+                        <p>
+                            Amet minim mollit non deserunt ullamco est sit
+                            aliqua dolor do amet sint. Velit officia consequat
+                            duis enim velit mollit. Exercitation veniam
+                            consequat sunt nostrud amet.
+                        </p>
+                        <img src="./images/detail_img_2.png" alt="image" />
+                        <img src="./images/detail_img_3.png" alt="image" />
                     </div>
-                    <p class="blog__posts--text">
-                        Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor do amet sint. Velit officia consequat duis enim
-                        velit mollit. Exercitation veniam consequat sunt nostrud
-                        amet.
-                    </p>
                 </div>
-            </div>
+            </section>
         </main>
-        <!--Footer-->
         <footer id="footer" class="footer wrapper">
             <div class="socials">
                 <a href="https://www.facebook.com" target="_blank"
@@ -194,10 +135,7 @@
                         <path
                             d="M25.6055 0H4.39453C1.97159 0 0 1.97159 0 4.39453V25.6055C0 28.0284 1.97159 30 4.39453 30H25.6055C28.0284 30 30 28.0284 30 25.6055V4.39453C30 1.97159 28.0284 0 25.6055 0ZM10.6055 23.7891H7.08984V11.4844H10.6055V23.7891ZM10.6055 9.72656H7.08984V6.21094H10.6055V9.72656ZM22.9102 23.7891H19.3945V16.7578C19.3945 15.7887 18.6058 15 17.6367 15C16.6676 15 15.8789 15.7887 15.8789 16.7578V23.7891H12.3633V11.4844H15.8789V12.147C16.7999 11.8607 17.3982 11.4844 18.5156 11.4844C20.8999 11.4869 22.9102 13.6258 22.9102 16.1536V23.7891Z"
                             fill="#21243D"
-                        />
-                    </svg>
-                    ></a
-                >
+                        /></svg></a>
             </div>
             <div class="copyright">
                 <p>Copyright &copy2020 All rights reserved</p>
