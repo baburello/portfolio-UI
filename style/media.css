@@ -181,8 +181,34 @@
     }
 }
 
-/* @media (max-width: 500px) {
-    body {
-        max-width: 375px;
+
+
+/* Blog page media */
+
+@media(max-width:703px){
+    .blog__title{
+        max-width: 339px;
+        margin: 0 auto 18px auto;
+        font-size: 30px;
     }
-} */
+}
+
+@media(max-width:703px){
+    .blog__posts--title{
+        font-size: 26px;
+        margin-top: 18px;
+    }
+}
+
+@media(max-width:703px){
+    .blog__posts{
+        max-width: 339px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:703px){
+    .blog__posts--text{
+        max-width: 339px;
+    }
+}
