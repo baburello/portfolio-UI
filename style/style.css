@@ -38,14 +38,13 @@ li {
 html,
 body {
     height: 100%;
-    scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: "Heebo", sans-serif;
     width: 100%;
     /* height: 2000px; */
-    
 }
 
 .wrapper {
@@ -74,14 +73,12 @@ a {
 .header__nav--link:hover {
     color: var(--primary-color);
     transition: 0.3s ease;
-    transform: translateY(-2px)
-    
+    transform: translateY(-2px);
 }
 
-.header__nav--link:active{
+.header__nav--link:active {
     color: var(--white-color);
     transition: 0.1s ease;
-   
 }
 
 /* end of header */
@@ -240,6 +237,11 @@ a {
     margin-top: 31px;
     padding-bottom: 32px;
 }
+/* code below is for works page */
+.featured__work:nth-of-type(4) {
+    margin-top: 31px;
+    padding-bottom: 32px;
+}
 
 .featured__work--img {
     width: 246px;
@@ -255,6 +257,7 @@ img {
     display: flex;
     align-items: center;
     gap: 36px;
+    margin-top: 16px;
 }
 
 .featured__work--date--year {
@@ -276,10 +279,6 @@ img {
 
 .featured__work--desc--text {
     margin-top: 17px;
-}
-
-#featured_text {
-    margin-top: 45px;
 }
 
 /* End of main */
@@ -312,6 +311,10 @@ img {
 .blog__title {
     margin-top: 63px;
     margin-bottom: 55px;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
 }
 
 .blog__posts {
@@ -357,4 +360,22 @@ img {
 
 #blog-post-last {
     margin-bottom: 53px;
+}
+
+#blog-title {
+    color: var(--primary-color);
+}
+
+#works-title {
+    color: var(--primary-color);
+}
+
+/* WORK Page styles */
+
+.work__title {
+    margin-top: 63px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 25px;
 }

@@ -12,7 +12,7 @@
             <header class="header">
                 <nav class="header__nav">
                     <ul>
-                        <li><a class="header__nav--link" href="./works.html">Works</a></li>
+                        <li><a class="header__nav--link" id="works-title" href="#">Works</a></li>
                         <li>
                             <a class="header__nav--link" href="./blog.html"
                                 >Blog</a
@@ -34,94 +34,10 @@
                 </div>
             </header>
         </div>
-        <main class="main">
-            <div class="wrapper">
-                <section class="main__intro __container">
-                    <div class="main__intro--desc">
-                        <h1 class="main__intro--name">
-                            Hi, I am John,<br />
-                            Creative Technologist
-                        </h1>
-                        <p class="main__intro--about">
-                            Amet minim mollit non deserunt ullamco est sit
-                            aliqua dolor do amet sint. Velit officia consequat
-                            duis enim velit mollit. Exercitation veniam
-                            consequat sunt nostrud amet.
-                        </p>
-                        <a
-                            href="./images/avatar_img.png"
-                            class="main__intro--btn"
-                            download
-                        >
-                            Download Resume
-                        </a>
-                    </div>
-                    <div class="main__intro--photo">
-                        <img src="./images/avatar_img.png" alt="avatar photo" />
-                    </div>
-                </section>
-            </div>
-            <section class="recent">
-                <div class="recent__container wrapper">
-                    <div class="recent__texts">
-                        <h3 class="recent__texts--posts">Recent posts</h3>
-                        <a class="recent__texts--more" href="#">View all</a>
-                    </div>
-                    <div class="recent__cards--container">
-                        <div class="recent__cards">
-                            <h2 class="recent__cards--header">
-                                Making a design system from scratch
-                            </h2>
-                            <div class="recent__cards--date">
-                                <p>12 Feb 2020</p>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="2"
-                                    height="21"
-                                    viewBox="0 0 2 21"
-                                    fill="none"
-                                >
-                                    <path d="M1 0V21" stroke="black" />
-                                </svg>
-                                <p>Design, Pattern</p>
-                            </div>
-                            <div class="recent__cards--text">
-                                Amet minim mollit non deserunt ullamco est sit
-                                aliqua dolor do amet sint. Velit officia
-                                consequat duis enim velit mollit. Exercitation
-                                veniam consequat sunt nostrud amet.
-                            </div>
-                        </div>
-                        <div class="recent__cards">
-                            <h2 class="recent__cards--header">
-                                Creating pixel perfect icons in Figma
-                            </h2>
-                            <div class="recent__cards--date">
-                                <p>12 Feb 2020</p>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="2"
-                                    height="21"
-                                    viewBox="0 0 2 21"
-                                    fill="none"
-                                >
-                                    <path d="M1 0V21" stroke="black" />
-                                </svg>
-                                <p>Figma, Icon Design</p>
-                            </div>
-                            <div class="recent__cards--text">
-                                Amet minim mollit non deserunt ullamco est sit
-                                aliqua dolor do amet sint. Velit officia
-                                consequat duis enim velit mollit. Exercitation
-                                veniam consequat sunt nostrud amet.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <main class="main wrapper">
             <section class="featured wrapper">
                 <div class="featured__container">
-                    <h3 class="featured__title">Featured works</h3>
+                    <h3 class="featured__title work__title">Work</h3>
                     <div class="featured__works">
                         <div class="featured__work">
                             <!--featured work 1-->
@@ -150,7 +66,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="featured__work" id="feat-work-2">
+                        <div class="featured__work">
                             <!--featured work 2-->
                             <div class="featured__work--img">
                                 <img
@@ -177,12 +93,12 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="featured__work" id="feat-work-2">
+                        <div class="featured__work">
                             <!--featured work 3-->
                             <div class="featured__work--img">
                                 <img
                                     src="./images/36_days_img.png"
-                                    alt="36 days of malayalam type image"
+                                    alt="vibrant port image"
                                 />
                             </div>
                             <div class="featured__work--desc">
@@ -195,17 +111,44 @@
                                         Typography
                                     </p>
                                 </div>
-                                <p
-                                    class="featured__work--desc--text"
-                                >
+                                <p class="featured__work--desc--text">
                                     Amet minim mollit non deserunt ullamco est
-                                    sit aliqua dolor do amet <br />
-                                    sint. Velit officia consequat duis enim
-                                    velit mollit. Exercitation veniam <br />
-                                    consequat sunt nostrud amet.
+                                    sit aliqua dolor do amet sint. Velit officia
+                                    consequat duis enim velit mollit.
+                                    Exercitation veniam consequat sunt nostrud
+                                    amet.
                                 </p>
                             </div>
                         </div>
+                        <div class="featured__work">
+                            <!--featured work 4-->
+                            <div class="featured__work--img">
+                                <img
+                                    src="./images/components-img.png"
+                                    alt="vibrant port image"
+                                />
+                            </div>
+                            <div class="featured__work--desc">
+                                <h2>Components</h2>
+                                <div class="featured__work--date">
+                                    <p class="featured__work--date--year">
+                                        2018
+                                    </p>
+                                    <p class="featured__work--date--dash">
+                                        Components, Design
+                                    </p>
+                                </div>
+                                <p class="featured__work--desc--text">
+                                    Amet minim mollit non deserunt ullamco est
+                                    sit aliqua dolor do amet sint. Velit officia
+                                    consequat duis enim velit mollit.
+                                    Exercitation veniam consequat sunt nostrud
+                                    amet.
+                                </p>
+                            </div>
+                        </div>
+                        
+                         
                     </div>
                 </div>
             </section>
