@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900);
+@import url(./media.css);
 
 *,
 *::before,
@@ -382,6 +383,8 @@ img {
 
 .featured__work--link {
     margin-top: 43px;
+    display: flex;
+    justify-content: center;
 }
 
 /* Detail work page */
@@ -498,3 +501,8 @@ img {
 .hamburger-menu__container.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(35px, 35px);
 }
+
+.nav-menu{
+
+}
+

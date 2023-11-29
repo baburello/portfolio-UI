@@ -1,4 +1,5 @@
 const menuBtn = document.querySelector(".hamburger-menu__container");
+const bodyBtn = document.querySelector(".body");
 let menuOpen = false;
 menuBtn.addEventListener("click", () => {
     if (!menuOpen) {
@@ -10,4 +11,9 @@ menuBtn.addEventListener("click", () => {
     }
 });
 
-
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+})
