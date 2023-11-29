@@ -10,14 +10,6 @@
     }
 }
 
-.hamburger-menu--item {
-    display: inline-block;
-    width: 30px;
-    height: 2px;
-    background-color: #000000;
-    /* margin-left: auto; */
-}
-
 @media (max-width: 1024px) {
     .header__nav {
         display: none;
