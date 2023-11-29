@@ -1,12 +1,6 @@
 @import url(./style.css);
 
 /* Burger menu media */
-.hamburger-menu__container {
-    display: none;
-    position: absolute;
-    top: 20px;
-    right: 1px;
-}
 
 @media (max-width: 1024px) {
     .hamburger-menu__container {
@@ -14,12 +8,6 @@
         flex-direction: column;
         gap: 6px;
     }
-}
-
-.hamburger-menu__items {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
 }
 
 .hamburger-menu--item {
